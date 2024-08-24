@@ -33,9 +33,9 @@ module.exports = {
 
       const helpDescription = `
 \`\`\`css
-Welcome to ${botName}!
+ ${botName}!
 
-Your ultimate music companion on Discord. Here are the available commands:
+Here are the available commands:
 
 [ /play    ] - Start playing the songs.
 [ /pause   ] - Pause the current song.
@@ -53,10 +53,10 @@ Your ultimate music companion on Discord. Here are the available commands:
 
       const embed = new EmbedBuilder()
         .setColor(config.embedColor)
-        .setTitle(`${botName} Help`)
+        .setTitle(`.𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`)
         .setThumbnail(client.user.displayAvatarURL()) 
         .setDescription(helpDescription)
-        .setFooter({ text: `Prime Music v1.0`, iconURL: client.user.displayAvatarURL() }) 
+        .setFooter({ text: `𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞𓆟 𓆞 𓆝 𓆟𓆝𓆞`, iconURL: client.user.displayAvatarURL() }) 
       
 
       return interaction.reply({ embeds: [embed] });

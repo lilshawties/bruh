@@ -46,7 +46,6 @@ Here are the available commands:
 [ /np      ] - Shows now playing song.
 [ /volume  ] - Sets the volume of the player.
 [ /ping    ] - Check bot latency.
-[ /support ] - Shows support server info.
 [ /help    ] - Display this help menu.
 \`\`\`
       `;

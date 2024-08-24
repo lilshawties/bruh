@@ -30,7 +30,7 @@ async function play(client, interaction) {
 
         if (!interaction.member.voice.channelId) {
             const embed = new EmbedBuilder()
-                .setColor('#ff0000')
+                .setColor('#812f49')
                 .setTitle('Voice Channel Required')
                 .setDescription('❌ You need to be in a voice channel to use this command.');
 
